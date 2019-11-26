@@ -1,0 +1,73 @@
+//Variables
+$dark-color: #041b17;
+$light-color: #a7c2be;
+$main-color: #3e857a;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+    background-color: $dark-color;
+    height: 100vh;
+    padding: 2rem;;
+  }
+
+  .weeks {
+    
+    height: 100%;
+    
+
+    .week {
+        text-align: center;
+        overflow: hidden;
+        padding: 2rem;
+        background: $light-color;
+        color: $dark-color;
+        
+        h2, h4 {
+          margin-bottom: 0.5rem;
+        }
+        .input-form {
+          margin-bottom: 0.5rem;;
+          padding: 0.5rem;
+          border: 1px solid $dark-color;
+        }
+
+        .list {
+         
+          list-style: none;
+         max-width: 200px;
+         margin: 1rem auto 3rem auto;
+
+    .list-item {
+      display: flex;
+      justify-content: space-between;
+
+      i {
+        color: $main-color;
+      }
+    }
+        }
+      }
+
+      .btn {
+        border: 1px solid $dark-color;
+        padding: 0.5rem;
+        background-color: $main-color;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: 1rem;
+
+        &-2 {
+          
+          padding: 0.5rem 2rem;
+        }
+      
+  }
+
+  a {
+      text-decoration: none;
+  }
+  }
